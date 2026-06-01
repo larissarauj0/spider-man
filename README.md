@@ -1,5 +1,7 @@
 # 🕷️ Spider-Man: Miles Morales Landing Page
 
+🔗 Deploy: https://spider-man-alpha.vercel.app/)  |  📁 Repositório: github.com/larissarauj0/spider-man
+
 Uma landing page inspirada no universo de **Spider-Man: Miles Morales**, desenvolvida com **Next.js**, **TypeScript**, **Tailwind CSS** e animações utilizando **Framer Motion**.
 
 O projeto foi criado com foco em prática de **Frontend moderno**, componentização, responsividade e experiência visual.
