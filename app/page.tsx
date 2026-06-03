@@ -5,13 +5,11 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <main className='min-h-screen bg-[url("/images/bg.png")] bg-cover bg-center flex flex-col items-center'>
-      
-        <Header />
-        <Hero />
-        <Feature/>
-        <Footer/>
-    
+    <main className='min-h-screen bg-[url("/images/bg.png")] bg-cover bg-center flex flex-col items-center overflow-x-hidden'>
+      <Header />
+      <Hero />
+      <Feature />
+      <Footer />
     </main>
   );
 }

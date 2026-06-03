@@ -2,26 +2,28 @@
 
 const Header = () => {
   return (
-    <header className="mt-4 flex h-[56.19px] w-full items-center justify-between px-6 text-sm lg:max-w-240">
-      
-      <img
-        className="flex h-12 w-8 items-center justify-center"
-        src="/images/logo.png"
-        alt="Logo"
-      />
+    <header className="w-full px-6 py-5 text-white">
+      <div className="flex items-center justify-between">
+        
+        <img
+          className="h-12 w-8"
+          src="/images/logo.png"
+          alt="Logo"
+        />
 
-      <div className="flex items-center gap-4 sm:gap-8 md:gap-12">
-        <span className="cursor-pointer hover:text-[#EC1F1D]">
-          Sinopse
-        </span>
+        <div className="flex gap-5 text-sm sm:gap-8 md:gap-12">
+          <span className="cursor-pointer transition hover:text-[#EC1F1D]">
+            Sinopse
+          </span>
 
-        <span className="cursor-pointer hover:text-[#EC1F1D]">
-          Elenco
-        </span>
+          <span className="cursor-pointer transition hover:text-[#EC1F1D]">
+            Elenco
+          </span>
 
-        <span className="cursor-pointer hover:text-[#EC1F1D]">
-          Forúm
-        </span>
+          <span className="cursor-pointer transition hover:text-[#EC1F1D]">
+            Fórum
+          </span>
+        </div>
       </div>
     </header>
   );
